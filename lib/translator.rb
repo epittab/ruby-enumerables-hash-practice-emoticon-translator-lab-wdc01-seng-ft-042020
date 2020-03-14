@@ -6,8 +6,12 @@ def load_library(filepath)
   unaltered_hash = YAML.load_file(filepath)
   jap_hash = {}
   eng_hash = {}
+  
+  unaltered_hash.each do |key, value|
+  
   meaning_array = unaltered_hash.keys
   puts meaning_array
+  
   hash = {
     :get_meaning => jap_hash,
     :get_emoticon => eng_hash
