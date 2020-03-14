@@ -29,7 +29,7 @@ def get_japanese_emoticon(filepath, emoticon)
   # code goes here
   hash = load_library(filepath)
   
-  hash[:get_meaning].each do |key, value|
+  hash[:get_emoticon].each do |key, value|
     if (emoticon == key)
       return value
     end
