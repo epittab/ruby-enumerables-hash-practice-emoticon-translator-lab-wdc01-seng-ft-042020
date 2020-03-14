@@ -25,6 +25,7 @@ def load_library(filepath)
   return hash
 end
 
+
 def get_japanese_emoticon(filepath, emoticon)
   # code goes here
   hash = load_library(filepath)
@@ -36,6 +37,7 @@ def get_japanese_emoticon(filepath, emoticon)
   end
   return "Sorry, that emoticon was not found"
 end
+
 
 def get_english_meaning(filepath, emoticon)
   # code goes here
