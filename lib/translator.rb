@@ -3,11 +3,11 @@ require "yaml"
 
 def load_library(filepath)
   # code goes here
-  unaltered_hash = YAML.load_file(filepath)
+  raw_data = YAML.load_file(filepath)
   jap_hash = {}
   eng_hash = {}
   
-  unaltered_hash.each do |key, value| 
+  raw_data.each do |key, value| 
     if (!jap_hash[value[1]]) 
       jap_hash[value[1]] = key
     end
