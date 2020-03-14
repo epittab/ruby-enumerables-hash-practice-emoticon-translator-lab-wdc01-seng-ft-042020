@@ -9,10 +9,10 @@ def load_library(filepath)
   
   unaltered_hash.each do |key, value| 
     if (!jap_hash[value[1]]) 
-      jap_hash[value[1]] = [key]
+      jap_hash[value[1]] = key
     end
-    if (!eng_hash[key])
-      eng_hash[key] = value[0]
+    if (!eng_hash[value[0]])
+      eng_hash[value[0]] = key
     end
   end
   
