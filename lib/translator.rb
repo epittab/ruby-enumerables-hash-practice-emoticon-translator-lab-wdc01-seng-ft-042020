@@ -5,6 +5,7 @@ def load_library(filepath)
   # code goes here
   unaltered_hash = YAML.load_file(filepath)
   meaning_array = unaltered_hash.keys
+  puts meaning_array
   hash = {
     :get_meaning => meaning_array,
     
