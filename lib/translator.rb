@@ -4,6 +4,9 @@ require "yaml"
 def load_library(filepath)
   # code goes here
   unaltered_hash = YAML.load_file(filepath)
+  hash = {
+    :
+  }
   pp hash
   return hash
 end
