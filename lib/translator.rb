@@ -16,8 +16,6 @@ def load_library(filepath)
     end
   end
   
-  meaning_array = unaltered_hash.keys
-  puts meaning_array
   
   hash = {
     :get_meaning => jap_hash,
