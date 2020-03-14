@@ -35,7 +35,7 @@ def get_japanese_emoticon(filepath, emoticon)
     end
   end
   hash[:get_meaning].each do |key, value|
-    if (meani)
+    if (meaning)
     
   end
   return hash
