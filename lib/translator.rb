@@ -42,7 +42,7 @@ end
 def get_english_meaning(filepath, emoticon)
   # code goes here
   hash = load_library(filepath)
-  translation = ""
+  
   hash[:get_meaning].each do |key, value|
     if (emoticon == key)
       return value
