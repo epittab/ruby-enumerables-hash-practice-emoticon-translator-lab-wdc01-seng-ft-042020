@@ -21,7 +21,7 @@ def load_library(filepath)
     :get_meaning => jap_hash,
     :get_emoticon => eng_hash
   }
-  pp hash
+  
   return hash
 end
 
