@@ -14,7 +14,6 @@ def load_library(filepath)
     if (!eng_hash[key])
       eng_hash[key] = value[0]
     end
-    
   end
   
   meaning_array = unaltered_hash.keys
