@@ -11,7 +11,7 @@ def load_library(filepath)
     if (!jap_hash[key]) 
       jap_hash[key] = value[1]
     end
-    if ()
+    if (!eng_hash[key])
       
     end
     
