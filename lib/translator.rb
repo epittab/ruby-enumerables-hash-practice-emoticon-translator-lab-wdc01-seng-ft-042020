@@ -18,5 +18,6 @@ end
 def get_english_meaning(filepath, emoticon)
   # code goes here
   hash = load_library(filepath)
+  puts hash[emoticon]
   return hash
 end
