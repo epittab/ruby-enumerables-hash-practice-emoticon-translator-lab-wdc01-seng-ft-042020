@@ -13,7 +13,6 @@ def load_library(filepath)
     end
     if (!eng_hash[key])
       eng_hash[key] = value[0]
-      
     end
     
   end
