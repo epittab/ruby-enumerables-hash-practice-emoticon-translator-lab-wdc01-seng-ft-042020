@@ -7,7 +7,11 @@ def load_library(filepath)
   jap_hash = {}
   eng_hash = {}
   
-  unaltered_hash.each do |key, value|
+  unaltered_hash.each do |key, value| 
+    
+    
+    
+  end
   
   meaning_array = unaltered_hash.keys
   puts meaning_array
