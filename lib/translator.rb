@@ -39,7 +39,7 @@ def get_japanese_emoticon(filepath, emoticon)
       return key
     end
   end
-  return "hash"
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(filepath, emoticon)
