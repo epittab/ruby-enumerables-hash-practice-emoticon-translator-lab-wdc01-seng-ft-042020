@@ -10,7 +10,7 @@ def load_library(filepath)
   puts meaning_array
   hash = {
     :get_meaning => jap_hash,
-    :
+    :get_emoticon => eng_hash
   }
   pp hash
   return hash
