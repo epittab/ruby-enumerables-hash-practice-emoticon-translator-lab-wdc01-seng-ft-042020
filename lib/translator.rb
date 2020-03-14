@@ -4,8 +4,10 @@ require "yaml"
 def load_library(filepath)
   # code goes here
   unaltered_hash = YAML.load_file(filepath)
+  meaning_array = unaltered_hash.keys
   hash = {
-    :
+    :get_meaning => unaltered_hash,
+    
   }
   pp hash
   return hash
