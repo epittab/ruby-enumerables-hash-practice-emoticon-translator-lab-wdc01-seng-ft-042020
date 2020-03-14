@@ -48,6 +48,7 @@ def get_english_meaning(filepath, emoticon)
   hash[:get_meaning].each do |key, value|
     if (emoticon == key)
       return value
+    end
   end
   
   puts hash[emoticon]
