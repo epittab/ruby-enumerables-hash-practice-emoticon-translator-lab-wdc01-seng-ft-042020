@@ -4,12 +4,13 @@ require "yaml"
 def load_library(filepath)
   # code goes here
   unaltered_hash = YAML.load_file(filepath)
+  jap_hash = {}
+  eng_hash = {}
   meaning_array = unaltered_hash.keys
   puts meaning_array
   hash = {
-    :get_meaning => meaning_array,
-    
-    
+    :get_meaning => jap_hash,
+    :
   }
   pp hash
   return hash
