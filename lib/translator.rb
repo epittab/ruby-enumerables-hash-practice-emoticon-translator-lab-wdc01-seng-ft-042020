@@ -52,6 +52,6 @@ def get_english_meaning(filepath, emoticon)
     end
   end
   
-  puts hash[emoticon]
+  
   return hash
 end
