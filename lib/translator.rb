@@ -28,7 +28,11 @@ end
 def get_japanese_emoticon(filepath, emoticon)
   # code goes here
   hash = load_library(filepath)
-  puts hash[emoticon]
+  meaning = ""
+  hash[:get_emoticon].each do |key, value|
+    if ()
+    
+  end
   return hash
 end
 
