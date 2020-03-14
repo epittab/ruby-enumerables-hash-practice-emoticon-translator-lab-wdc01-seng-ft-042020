@@ -6,7 +6,8 @@ def load_library(filepath)
   unaltered_hash = YAML.load_file(filepath)
   meaning_array = unaltered_hash.keys
   hash = {
-    :get_meaning => unaltered_hash,
+    :get_meaning => meaning_array,
+    
     
   }
   pp hash
