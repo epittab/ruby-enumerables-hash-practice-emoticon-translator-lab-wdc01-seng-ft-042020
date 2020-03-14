@@ -33,6 +33,7 @@ def get_japanese_emoticon(filepath, emoticon)
       meaning = value
     end
   end
+  
   return hash
 end
 
