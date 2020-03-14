@@ -8,8 +8,8 @@ def load_library(filepath)
   eng_hash = {}
   
   unaltered_hash.each do |key, value| 
-    if (!jap_hash[key]) 
-      jap_hash[key] = value[1]
+    if (!jap_hash[value[1]]) 
+      jap_hash[value[1]] = [key]
     end
     if (!eng_hash[key])
       eng_hash[key] = value[0]
